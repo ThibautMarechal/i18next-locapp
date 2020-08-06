@@ -1,1 +1,1 @@
-## React-i18next with In c
+## React-i18next with build-in in ContextEditing
