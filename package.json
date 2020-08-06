@@ -1,0 +1,47 @@
+{
+  "name": "i18next-locapp",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "main": "./lib/main.js",
+  "files": [
+    "/lib"
+  ],
+  "homepage": "./",
+  "peerDependencies": {
+    "i18next": "^19.6.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "react-i18next": "^11.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "i18next": "^19.6.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.6.0"
+  },
+  "scripts": {
+    "build": "babel src --extensions \".ts\",\".tsx\" --out-dir lib",
+    "postbuild": "tsc -p tsconfig.dt.json"
+  },
+  "jestSonar": {
+    "sonar56x": true
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "engines": {
+    "node": ">=8.10.0"
+  }
+}

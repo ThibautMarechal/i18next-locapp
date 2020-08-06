@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig",
+  "compilerOptions": {
+    "outDir": "lib/",
+    "isolatedModules": false,
+    "noEmit": false,
+    "declaration": true,
+    "allowJs": false,
+    "emitDeclarationOnly": true
+  },
+  "include": ["src/index.ts", "typings/**/*.d.ts"]
+}
